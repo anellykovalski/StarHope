@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STARHOPE  - EXPERIÊNCIA ÚNICA</title>
+    <link rel="stylesheet" type="text/css" href="style.css"><!-- Link para seu arquivo CSS personalizado -->
+</head>
+<body>
+    <header>
+        <img src="C:/Users/Anell/Downloads/imagem.jpg" alt="logo">
+
+        <nav>
+            <ul>
+                <li><a href="#destinations">Destinos</a></li>
+                <li><a href="#itineraries">Itinerários</a></li>
+                <li><a href="#about">Sobre Nós</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="destinations">
+        <h2>Destinos Espaciais</h2>
+        <ul>
+        <li>Marte</li>
+        <li>Júpiter</li>
+        <li>Saturno</li>
+        <li>Lua</li>
+        <li>Plutão</li>
+        </ul>
+    </section>
+
+    <section id="itineraries">
+        <h2>Itinerários Personalizados</h2>
+        <p>Deixe-nos criar um itinerário espacial sob medida para a sua aventura no espaço.</p>
+        <a href="form.html">Criar a minha personalização</a>
+       
+    </section>
+
+    <section id="about">
+        <h2>Sobre Nós</h2>
+        <p>A STARHOPE é uma empresa que proporciona incríveis experiências educativas, usamos 
+            <br>
+            o Turismo Espacial para você personalizar um Itinerário perfeito para sua viagem.
+            <br>
+            Professores que gostariam de ensinar sobre o sistema Solar para seus alunos, conseguem
+            <br>
+            fazer isso de uma forma incrível com a STARHOPE. Faça já a sua viagem.
+        </p>
+        <!-- Inclua informações sobre a empresa e a equipe aqui -->
+    </section>
+
+    <section id="contact">
+        <h2>Entre em Contato</h2>
+        <p>Estamos aqui para responder a todas as suas perguntas sobre turismo espacial.</p>
+        <br>
+        <a href="sac.html">Link para o Serviço ao Cliente</a>
+        <!-- Inclua informações de contato aqui -->
+    </section>
+
+    <footer>
+        <p>&copy; 2023 STARHOPE. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
