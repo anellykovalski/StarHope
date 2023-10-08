@@ -1,0 +1,62 @@
+/* Estilo geral do site */
+body {
+    background-color: #000; /* Cor de fundo preto para representar o espaço */
+    color: #fff; /* Cor do texto em branco */
+    font-family: 'Arial', sans-serif; /* Fonte padrão */
+    margin: 0; /* Remover margens padrão */
+    padding: 0; /* Remover preenchimento padrão */
+}
+
+/* Estilo do cabeçalho */
+header {
+    background-color: #002b49; /* Cor de fundo azul escuro */
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+/* Estilo da barra de navegação */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Estilo das seções do conteúdo */
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: rgba(0, 43, 73, 0.8); /* Cor de fundo azul escuro com transparência */
+    border-radius: 10px;
+}
+
+/* Estilo dos links */
+a {
+    color: #00a2e8; /* Cor azul brilhante para links */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Estilo do rodapé */
+footer {
+    background-color: #002b49; /* Cor de fundo azul escuro para o rodapé */
+    text-align: center;
+    padding: 10px;
+}

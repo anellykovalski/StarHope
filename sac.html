@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAC STARHOPE</title>
+    <link rel="stylesheet" type="text/css" href="stylesac.css"><!-- Link para seu arquivo CSS personalizado -->
+</head>
+<body>
+    <h1>Preencha o Formulário para entrar em contado</h1>
+    
+    <form action="processar_formulario.php" method="post">
+        <!-- Campo de texto para nome -->
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required>
+        
+        <!-- Campo de e-mail -->
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" required>
+        
+        <!-- Caixa de seleção para um assunto -->
+        <label for="assunto">Assunto:</label>
+        <select id="assunto" name="assunto">
+            <option value="duvida">Dúvida</option>
+            <option value="sugestao">Sugestão</option>
+            <option value="reclamacao">Reclamação</option>
+        </select>
+        
+        <!-- Campo de mensagem -->
+        <label for="mensagem">Mensagem:</label>
+        <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+        
+        <!-- Botão de envio -->
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>

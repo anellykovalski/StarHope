@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STARHOPE  - personalização</title>
+    <link rel="stylesheet" href="styleform.css"> <!-- Link para seu arquivo CSS personalizado -->
+</head>
+<body>
+<h1>ITIERÁRIO PERSONALIZADO</h1>
+<br>
+<form action="processar_formulario.php" method="post">
+    <!-- Campo de texto para nome -->
+    <label for="nome">Nome:</label>
+    <input type="text" id="nome" name="nome" required>
+    <br>
+    
+    <!-- Campo de e-mail -->
+    <label for="email">E-mail:</label>
+    <input type="email" id="email" name="email" required>
+    <br>
+    
+    <!-- Caixa de seleção para um assunto -->
+    <label for="destino">Escolha seu destino:</label>
+    <select id="destino" name="destino">
+        <option value="marte">Marte</option>
+        <option value="jupter">Júpiter</option>
+        <option value="saturno">Saturno</option>
+        <option value="lua">Lua</option>
+        <option value="plutao">Plutão</option>
+    </select>
+    <br>
+
+    <label for="experiencia">Como quero vivênciar essa experiência?</label>
+    <select id="experiencia" name="experiencia">
+        <option value="perto">Quero me ver andando pelo destino</option>
+        <option value="longe">Quero viajar em volta do destino</option>
+    </select>
+    <br>
+    
+  
+    <!-- Botão de envio -->
+    <input type="submit" value="Enviar">
+</form>
+</body>
+</html>
